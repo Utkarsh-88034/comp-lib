@@ -1,10 +1,9 @@
-import React from 'react';
+import React, { useMemo } from 'react';
 
 const TextComp = () => {
-  let text;
-  useEffect(() => {
-    text = 'Hello New World';
-  }, []);
+  let text = useMemo(() => {
+    return 'new hello world';
+  });
   return (
     <>
       <h1>Hello World</h1>
