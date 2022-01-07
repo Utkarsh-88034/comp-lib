@@ -1,5 +1,8 @@
 {
-  "name": "component-lib",
+  "name": "@utkarsh-88034/comp-lib",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/Utkarsh-88034"
+  },
   "version": "0.1.0",
   "private": false,
   "main": "build/index.js",
