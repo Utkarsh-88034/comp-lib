@@ -3,8 +3,8 @@
   "publishConfig": {
     "registry": "https://npm.pkg.github.com/Utkarsh-88034"
   },
-  "version": "0.1.1004",
-  "private": false,
+  "version": "0.1.1007",
+  "private": true,
   "main": "build/index.js",
   "files": [
     "build",
